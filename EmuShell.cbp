@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EmuShell" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EmuShell" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/EmuShell" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-Wall" />
+			<Add directory="C:/Libraries/SDL2/SDL2_image-2.0.1/i686-w64-mingw32/include" />
+			<Add directory="C:/Libraries/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/include" />
+			<Add directory="C:/Libraries/SDL2/SDL2-2.0.4/i686-w64-mingw32/include/SDL2" />
+			<Add directory="C:/Libraries/SDL2/SDL2-2.0.4/i686-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image" />
+			<Add directory="C:/Libraries/SDL2/SDL2-2.0.4/i686-w64-mingw32/lib" />
+			<Add directory="C:/Libraries/SDL2/SDL2_image-2.0.1/i686-w64-mingw32/lib" />
+			<Add directory="C:/Libraries/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="Common/ConfigHandler.cpp" />
+		<Unit filename="Common/ConfigHandler.h" />
+		<Unit filename="Common/Cpu6502.cpp" />
+		<Unit filename="Common/Cpu6502.h" />
+		<Unit filename="Common/Crc32.cpp" />
+		<Unit filename="Common/Crc32.h" />
+		<Unit filename="Common/Registers.h" />
+		<Unit filename="Common/StateStream.cpp" />
+		<Unit filename="Common/StateStream.h" />
+		<Unit filename="Core.cpp" />
+		<Unit filename="Core.h" />
+		<Unit filename="Definations.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Nes/APU.cpp" />
+		<Unit filename="Nes/APU.h" />
+		<Unit filename="Nes/Board.cpp" />
+		<Unit filename="Nes/Board.h" />
+		<Unit filename="Nes/DMA.cpp" />
+		<Unit filename="Nes/DMA.h" />
+		<Unit filename="Nes/IJoypadConnecter.cpp" />
+		<Unit filename="Nes/IJoypadConnecter.h" />
+		<Unit filename="Nes/IVSUniSystemDIPConnecter.cpp" />
+		<Unit filename="Nes/IVSUniSystemDIPConnecter.h" />
+		<Unit filename="Nes/IZapperConnecter.cpp" />
+		<Unit filename="Nes/IZapperConnecter.h" />
+		<Unit filename="Nes/JoypadJoystickConnecter.cpp" />
+		<Unit filename="Nes/MappersLocater.cpp" />
+		<Unit filename="Nes/Mappers/EPROM.cpp" />
+		<Unit filename="Nes/Mappers/EPROM.h" />
+		<Unit filename="Nes/Mappers/Mapper000.cpp" />
+		<Unit filename="Nes/Mappers/Mapper001.cpp" />
+		<Unit filename="Nes/Mappers/Mapper002.cpp" />
+		<Unit filename="Nes/Mappers/Mapper003.cpp" />
+		<Unit filename="Nes/Mappers/Mapper004.cpp" />
+		<Unit filename="Nes/Mappers/Mapper005.cpp" />
+		<Unit filename="Nes/Mappers/Mapper006.cpp" />
+		<Unit filename="Nes/Mappers/Mapper007.cpp" />
+		<Unit filename="Nes/Mappers/Mapper008.cpp" />
+		<Unit filename="Nes/Mappers/Mapper009.cpp" />
+		<Unit filename="Nes/Mappers/Mapper010.cpp" />
+		<Unit filename="Nes/Mappers/Mapper011.cpp" />
+		<Unit filename="Nes/Mappers/Mapper013.cpp" />
+		<Unit filename="Nes/Mappers/Mapper015.cpp" />
+		<Unit filename="Nes/Mappers/Mapper016.cpp" />
+		<Unit filename="Nes/Mappers/Mapper017.cpp" />
+		<Unit filename="Nes/Mappers/Mapper018.cpp" />
+		<Unit filename="Nes/Mappers/Mapper019.cpp" />
+		<Unit filename="Nes/Mappers/Mapper021.cpp" />
+		<Unit filename="Nes/Mappers/Mapper022.cpp" />
+		<Unit filename="Nes/Mappers/Mapper023.cpp" />
+		<Unit filename="Nes/Mappers/Mapper024.cpp" />
+		<Unit filename="Nes/Mappers/Mapper025.cpp" />
+		<Unit filename="Nes/Mappers/Mapper026.cpp" />
+		<Unit filename="Nes/Mappers/Mapper032.cpp" />
+		<Unit filename="Nes/Mappers/Mapper033.cpp" />
+		<Unit filename="Nes/Mappers/Mapper034.cpp" />
+		<Unit filename="Nes/Mappers/Mapper041.cpp" />
+		<Unit filename="Nes/Mappers/Mapper042.cpp" />
+		<Unit filename="Nes/Mappers/Mapper044.cpp" />
+		<Unit filename="Nes/Mappers/Mapper045.cpp" />
+		<Unit filename="Nes/Mappers/Mapper046.cpp" />
+		<Unit filename="Nes/Mappers/Mapper047.cpp" />
+		<Unit filename="Nes/Mappers/Mapper048.cpp" />
+		<Unit filename="Nes/Mappers/Mapper049.cpp" />
+		<Unit filename="Nes/Mappers/Mapper050.cpp" />
+		<Unit filename="Nes/Mappers/Mapper051.cpp" />
+		<Unit filename="Nes/Mappers/Mapper052.cpp" />
+		<Unit filename="Nes/Mappers/Mapper057.cpp" />
+		<Unit filename="Nes/Mappers/Mapper058.cpp" />
+		<Unit filename="Nes/Mappers/Mapper060.cpp" />
+		<Unit filename="Nes/Mappers/Mapper061.cpp" />
+		<Unit filename="Nes/Mappers/Mapper062.cpp" />
+		<Unit filename="Nes/Mappers/Mapper064.cpp" />
+		<Unit filename="Nes/Mappers/Mapper065.cpp" />
+		<Unit filename="Nes/Mappers/Mapper066.cpp" />
+		<Unit filename="Nes/Mappers/Mapper067.cpp" />
+		<Unit filename="Nes/Mappers/Mapper068.cpp" />
+		<Unit filename="Nes/Mappers/Mapper069.cpp" />
+		<Unit filename="Nes/Mappers/Mapper070.cpp" />
+		<Unit filename="Nes/Mappers/Mapper071.cpp" />
+		<Unit filename="Nes/Mappers/Mapper072.cpp" />
+		<Unit filename="Nes/Mappers/Mapper073.cpp" />
+		<Unit filename="Nes/Mappers/Mapper074.cpp" />
+		<Unit filename="Nes/Mappers/Mapper075.cpp" />
+		<Unit filename="Nes/Mappers/Mapper076.cpp" />
+		<Unit filename="Nes/Mappers/Mapper077.cpp" />
+		<Unit filename="Nes/Mappers/Mapper078.cpp" />
+		<Unit filename="Nes/Mappers/Mapper079.cpp" />
+		<Unit filename="Nes/Mappers/Mapper080.cpp" />
+		<Unit filename="Nes/Mappers/Mapper082.cpp" />
+		<Unit filename="Nes/Mappers/Mapper085.cpp" />
+		<Unit filename="Nes/Mappers/Mapper086.cpp" />
+		<Unit filename="Nes/Mappers/Mapper087.cpp" />
+		<Unit filename="Nes/Mappers/Mapper088.cpp" />
+		<Unit filename="Nes/Mappers/Mapper089.cpp" />
+		<Unit filename="Nes/Mappers/Mapper090.cpp" />
+		<Unit filename="Nes/Mappers/Mapper091.cpp" />
+		<Unit filename="Nes/Mappers/Mapper092.cpp" />
+		<Unit filename="Nes/Mappers/Mapper093.cpp" />
+		<Unit filename="Nes/Mappers/Mapper094.cpp" />
+		<Unit filename="Nes/Mappers/Mapper095.cpp" />
+		<Unit filename="Nes/Mappers/Mapper096.cpp" />
+		<Unit filename="Nes/Mappers/Mapper097.cpp" />
+		<Unit filename="Nes/Mappers/Mapper099.cpp" />
+		<Unit filename="Nes/Mappers/Mapper105.cpp" />
+		<Unit filename="Nes/Mappers/Mapper107.cpp" />
+		<Unit filename="Nes/Mappers/Mapper112.cpp" />
+		<Unit filename="Nes/Mappers/Mapper113.cpp" />
+		<Unit filename="Nes/Mappers/Mapper115.cpp" />
+		<Unit filename="Nes/Mappers/Mapper118.cpp" />
+		<Unit filename="Nes/Mappers/Mapper119.cpp" />
+		<Unit filename="Nes/Mappers/Mapper133.cpp" />
+		<Unit filename="Nes/Mappers/Mapper140.cpp" />
+		<Unit filename="Nes/Mappers/Mapper154.cpp" />
+		<Unit filename="Nes/Mappers/Mapper159.cpp" />
+		<Unit filename="Nes/Mappers/Mapper160.cpp" />
+		<Unit filename="Nes/Mappers/Mapper164.cpp" />
+		<Unit filename="Nes/Mappers/Mapper165.cpp" />
+		<Unit filename="Nes/Mappers/Mapper180.cpp" />
+		<Unit filename="Nes/Mappers/Mapper182.cpp" />
+		<Unit filename="Nes/Mappers/Mapper184.cpp" />
+		<Unit filename="Nes/Mappers/Mapper185.cpp" />
+		<Unit filename="Nes/Mappers/Mapper189.cpp" />
+		<Unit filename="Nes/Mappers/Mapper191.cpp" />
+		<Unit filename="Nes/Mappers/Mapper192.cpp" />
+		<Unit filename="Nes/Mappers/Mapper193.cpp" />
+		<Unit filename="Nes/Mappers/Mapper194.cpp" />
+		<Unit filename="Nes/Mappers/Mapper200.cpp" />
+		<Unit filename="Nes/Mappers/Mapper201.cpp" />
+		<Unit filename="Nes/Mappers/Mapper202.cpp" />
+		<Unit filename="Nes/Mappers/Mapper203.cpp" />
+		<Unit filename="Nes/Mappers/Mapper204.cpp" />
+		<Unit filename="Nes/Mappers/Mapper205.cpp" />
+		<Unit filename="Nes/Mappers/Mapper206.cpp" />
+		<Unit filename="Nes/Mappers/Mapper207.cpp" />
+		<Unit filename="Nes/Mappers/Mapper209.cpp" />
+		<Unit filename="Nes/Mappers/Mapper210.cpp" />
+		<Unit filename="Nes/Mappers/Mapper212.cpp" />
+		<Unit filename="Nes/Mappers/Mapper213.cpp" />
+		<Unit filename="Nes/Mappers/Mapper214.cpp" />
+		<Unit filename="Nes/Mappers/Mapper216.cpp" />
+		<Unit filename="Nes/Mappers/Mapper222.cpp" />
+		<Unit filename="Nes/Mappers/Mapper225.cpp" />
+		<Unit filename="Nes/Mappers/Mapper226.cpp" />
+		<Unit filename="Nes/Mappers/Mapper227.cpp" />
+		<Unit filename="Nes/Mappers/Mapper228.cpp" />
+		<Unit filename="Nes/Mappers/Mapper229.cpp" />
+		<Unit filename="Nes/Mappers/Mapper230.cpp" />
+		<Unit filename="Nes/Mappers/Mapper231.cpp" />
+		<Unit filename="Nes/Mappers/Mapper232.cpp" />
+		<Unit filename="Nes/Mappers/Mapper233.cpp" />
+		<Unit filename="Nes/Mappers/Mapper240.cpp" />
+		<Unit filename="Nes/Mappers/Mapper242.cpp" />
+		<Unit filename="Nes/Mappers/Mapper243.cpp" />
+		<Unit filename="Nes/Mappers/Mapper245.cpp" />
+		<Unit filename="Nes/Mappers/Mapper246.cpp" />
+		<Unit filename="Nes/Mappers/Mapper255.cpp" />
+		<Unit filename="Nes/Mappers/_Mappers.h" />
+		<Unit filename="Nes/Nes.cpp" />
+		<Unit filename="Nes/Nes.h" />
+		<Unit filename="Nes/NesDB.cpp" />
+		<Unit filename="Nes/PPU.cpp" />
+		<Unit filename="Nes/PPU.h" />
+		<Unit filename="Nes/Palettes/NTSCPaletteGenerator.cpp" />
+		<Unit filename="Nes/Palettes/NTSCPaletteGenerator.h" />
+		<Unit filename="Nes/Palettes/PALBPaletteGenerator.cpp" />
+		<Unit filename="Nes/Palettes/PALBPaletteGenerator.h" />
+		<Unit filename="Nes/Palettes/PaletteFile.cpp" />
+		<Unit filename="Nes/Palettes/PaletteFile.h" />
+		<Unit filename="Nes/Rom/INES.cpp" />
+		<Unit filename="Nes/Rom/INES.h" />
+		<Unit filename="Nes/SoundChannels/APUInternalChannel.cpp" />
+		<Unit filename="Nes/SoundChannels/ChannelDMC.cpp" />
+		<Unit filename="Nes/SoundChannels/ChannelNoise.cpp" />
+		<Unit filename="Nes/SoundChannels/ChannelPulse.cpp" />
+		<Unit filename="Nes/SoundChannels/ChannelTriangle.cpp" />
+		<Unit filename="Nes/SoundChannels/MMC5ChannelPCM.cpp" />
+		<Unit filename="Nes/SoundChannels/MMC5ChannelPulse.cpp" />
+		<Unit filename="Nes/SoundChannels/Sunsoft5BChannel.cpp" />
+		<Unit filename="Nes/SoundChannels/VRC6ChannelPulse.cpp" />
+		<Unit filename="Nes/SoundChannels/VRC6ChannelSawtooth.cpp" />
+		<Unit filename="Nes/VSUniSystemJoystickConnecter.cpp" />
+		<Unit filename="Providers/AudioOut.cpp" />
+		<Unit filename="Providers/AudioOut.h" />
+		<Unit filename="Providers/Blip_Buffer/Blip_Buffer.cpp" />
+		<Unit filename="Providers/Blip_Buffer/Blip_Buffer.h" />
+		<Unit filename="Providers/SDLInput.cpp" />
+		<Unit filename="Providers/SDLInput.h" />
+		<Unit filename="Providers/Timer/Timer.cpp" />
+		<Unit filename="Providers/Timer/Timer.h" />
+		<Unit filename="Providers/VideoOut.cpp" />
+		<Unit filename="Providers/VideoOut.h" />
+		<Unit filename="Resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="XMLParser/xmlParser.cpp" />
+		<Unit filename="XMLParser/xmlParser.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
