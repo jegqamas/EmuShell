@@ -1,8 +1,8 @@
 // This file is part of EmuShell
 // A multi video game systems emulator.
 //
-// Copyright(C) 2015 Ala Ibrahim Hadid
-// E-mail: mailto:ahdsoftwares@hotmail.com
+// Copyright(C) 2015 - 2022 Alaa Ibrahim Hadid
+// E-mail: mailto:alaahadidfreeware@gmail.com
 //
 // This program is free software : you can redistribute it and / or modify
 // it under the terms of the GNU General Public License as published by
@@ -32,6 +32,10 @@ short temp_value;
 bool ready;
 bool enabled;
 SDL_AudioSpec* wav_spec_desigred;
+SDL_AudioSpec* specs1;
+
+int audio_selected_device_index;
+int audio_opened_device_index;
 
 void my_audio_callback(void *userdata, Uint8 * stream, int len);
 
@@ -40,8 +44,22 @@ void Initialize(const bool pl_enabled, const uint32_t frequency,const int buffer
     ready = false;
     enabled= pl_enabled;
     buffer_size=buffer_size_bytes;
+
     std::cout << "SDL: Initializing audio ...\n";
     SDL_Init(SDL_INIT_AUDIO);
+
+    // List audio drivers
+    int c = SDL_GetNumAudioDrivers();
+    for (int i = 0; i < c; i++)
+    {
+        printf("SDL: ->Audio driver found: %s \n", SDL_GetAudioDeviceName(i, 0));
+    }
+    if (audio_selected_device_index<0)
+        audio_selected_device_index=0;
+
+    printf("SDL: Opening audio device ... \n");
+    printf("SDL: ->Audio device to open: %s \n",SDL_GetAudioDeviceName(audio_selected_device_index, 0));
+
     wav_spec_desigred = new SDL_AudioSpec();
     wav_spec_desigred->channels = 1;
     wav_spec_desigred->format = AUDIO_S16SYS;
@@ -50,7 +68,18 @@ void Initialize(const bool pl_enabled, const uint32_t frequency,const int buffer
     wav_spec_desigred->callback = my_audio_callback;
     wav_spec_desigred->userdata = NULL;
 
-    SDL_OpenAudio(wav_spec_desigred, NULL);
+    // SDL_OpenAudio(wav_spec_desigred, NULL);
+
+    audio_opened_device_index = SDL_OpenAudioDevice(SDL_GetAudioDeviceName(audio_selected_device_index, 0), 0, wav_spec_desigred, specs1, NULL);
+
+    if (audio_opened_device_index == 0)
+    {
+        printf("SDL: ERROR while opening audio device: %s \n",SDL_GetError());
+    }
+    else
+    {
+        printf("SDL: Audio device opened successfully.\n");
+    }
 
     samples_count = buffer_size * 20;
     audio_samples = new Uint8[samples_count];

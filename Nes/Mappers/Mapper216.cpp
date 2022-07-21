@@ -1,8 +1,8 @@
 // This file is part of EmuShell
 // A multi video game systems emulator.
 //
-// Copyright(C) 2015 Ala Ibrahim Hadid
-// E-mail: mailto:ahdsoftwares@hotmail.com
+// Copyright(C) 2015 - 2022 Alaa Ibrahim Hadid
+// E-mail: mailto:alaahadidfreeware@gmail.com
 //
 // This program is free software : you can redistribute it and / or modify
 // it under the terms of the GNU General Public License as published by

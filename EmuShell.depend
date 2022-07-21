@@ -4594,3 +4594,1631 @@
 	<wctype.h>
 	<widec.h>
 
+1658377397 source:h:\programming\emushell\source\common\confighandler.cpp
+	"ConfigHandler.h"
+
+1658377396 h:\programming\emushell\source\common\confighandler.h
+	<map>
+	<fstream>
+	<iostream>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<stdint.h>
+
+1658377395 source:h:\programming\emushell\source\common\cpu6502.cpp
+	"Cpu6502.h"
+	<iostream>
+	<vector>
+
+1658377396 h:\programming\emushell\source\common\cpu6502.h
+	"Registers.h"
+	<stdint.h>
+
+1658377398 h:\programming\emushell\source\common\registers.h
+
+1658377396 source:h:\programming\emushell\source\common\crc32.cpp
+	"Crc32.h"
+	<inttypes.h>
+	<stdio.h>
+	<string.h>
+	<fstream>
+
+1658377397 h:\programming\emushell\source\common\crc32.h
+	<string>
+
+1658377396 source:h:\programming\emushell\source\common\statestream.cpp
+	"StateStream.h"
+	"ConfigHandler.h"
+	<iostream>
+	<fstream>
+	<stdio.h>
+
+1658377398 h:\programming\emushell\source\common\statestream.h
+	<string>
+	<iostream>
+	<vector>
+	<stdint.h>
+
+1658386866 source:h:\programming\emushell\source\core.cpp
+	"Core.h"
+	"Definations.h"
+	"Nes/Nes.h"
+	"Providers/SDLInput.h"
+	"Providers/VideoOut.h"
+	"Common/ConfigHandler.h"
+	<stdio.h>
+	<SDL2/SDL.h>
+
+1658377397 h:\programming\emushell\source\core.h
+	<string>
+
+1658377397 h:\programming\emushell\source\definations.h
+
+1658377395 h:\programming\emushell\source\nes\nes.h
+	<iostream>
+	<string>
+	"Board.h"
+	"PPU.h"
+	"APU.h"
+	"DMA.h"
+	"../Common/Cpu6502.h"
+	"../Common/StateStream.h"
+
+1658377396 h:\programming\emushell\source\nes\board.h
+	<string>
+	<stdint.h>
+
+1658377396 h:\programming\emushell\source\nes\ppu.h
+	<string>
+	<stdint.h>
+
+1658377397 h:\programming\emushell\source\nes\apu.h
+	<stdint.h>
+	"../Providers/AudioOut.h"
+	"../Providers/Blip_Buffer/Blip_Buffer.h"
+
+1658377396 h:\programming\emushell\source\providers\audioout.h
+	<stdint.h>
+
+1658377104 h:\programming\emushell\source\providers\blip_buffer\blip_buffer.h
+	"config.h"
+	<assert.h>
+
+1658377397 h:\programming\emushell\source\nes\dma.h
+	<stdint.h>
+
+1658377396 h:\programming\emushell\source\providers\sdlinput.h
+
+1658377396 h:\programming\emushell\source\providers\videoout.h
+	<stdint.h>
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910407 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910406 h:\programming\sdl2\sdl2-2.0.22\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1658377396 source:h:\programming\emushell\source\main.cpp
+	"Core.h"
+
+1658387203 source:h:\programming\emushell\source\nes\apu.cpp
+	"Nes.h"
+	"../Definations.h"
+	"../Common/ConfigHandler.h"
+
+1658377396 source:h:\programming\emushell\source\nes\board.cpp
+	"Nes.h"
+	<iostream>
+	"../Common/ConfigHandler.h"
+
+1658377397 source:h:\programming\emushell\source\nes\dma.cpp
+	"Nes.h"
+	<iostream>
+	"../Common/ConfigHandler.h"
+
+1658377395 source:h:\programming\emushell\source\nes\ijoypadconnecter.cpp
+	"IJoypadConnecter.h"
+	"../Providers/SDLInput.h"
+	"../Common/ConfigHandler.h"
+
+1658377397 h:\programming\emushell\source\nes\ijoypadconnecter.h
+	<stdint.h>
+	<SDL2/SDL.h>
+
+1658377396 source:h:\programming\emushell\source\nes\ivsunisystemdipconnecter.cpp
+	"IVSUniSystemDIPConnecter.h"
+	"../Providers/SDLInput.h"
+	"../Common/ConfigHandler.h"
+
+1658377396 h:\programming\emushell\source\nes\ivsunisystemdipconnecter.h
+	<stdint.h>
+	<SDL2/SDL.h>
+
+1658377397 source:h:\programming\emushell\source\nes\izapperconnecter.cpp
+	"Nes.h"
+	"IZapperConnecter.h"
+	"../Providers/VideoOut.h"
+	<SDL2/SDL.h>
+	<iostream>
+	"../Core.h"
+
+1658377395 h:\programming\emushell\source\nes\izapperconnecter.h
+	<stdint.h>
+
+1658377395 source:h:\programming\emushell\source\nes\joypadjoystickconnecter.cpp
+	"IJoypadConnecter.h"
+	"../Providers/SDLInput.h"
+	"../Common/ConfigHandler.h"
+	<iostream>
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\eprom.cpp
+	"EPROM.h"
+	"../Nes.h"
+
+1658377396 h:\programming\emushell\source\nes\mappers\eprom.h
+	<stdint.h>
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper000.cpp
+	"_Mappers.h"
+	<iostream>
+
+1658377397 h:\programming\emushell\source\nes\mappers\_mappers.h
+	<stdint.h>
+	"../Nes.h"
+	"EPROM.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper001.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper002.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper003.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper004.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper005.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+	"../../Core.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper006.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper007.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper008.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper009.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper010.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper011.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper013.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper015.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper016.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper017.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper018.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+	<stdio.h>
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper019.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+	"../../Core.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper021.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper022.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper023.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper024.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper025.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper026.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper032.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+	"../../Core.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper033.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+	<iostream>
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper034.cpp
+	"_Mappers.h"
+	<iostream>
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper041.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper042.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper044.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper045.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper046.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper047.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper048.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper049.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper050.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper051.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper052.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper057.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper058.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper060.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper061.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper062.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper064.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper065.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper066.cpp
+	"_Mappers.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper067.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper068.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper069.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper070.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper071.cpp
+	"_Mappers.h"
+	"../../Core.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper072.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper073.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper074.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper075.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper076.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper077.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper078.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper079.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper080.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper082.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper085.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper086.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper087.cpp
+	"_Mappers.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper088.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper089.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper090.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper091.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper092.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper093.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper094.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper095.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper096.cpp
+	"_Mappers.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper097.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper099.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper105.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper107.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper112.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper113.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper115.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper118.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper119.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper133.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper140.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper154.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper159.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper160.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper164.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper165.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper180.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper182.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper184.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper185.cpp
+	"_Mappers.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper189.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper191.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper192.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper193.cpp
+	"_Mappers.h"
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper194.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper200.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper201.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper202.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper203.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper204.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper205.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper206.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper207.cpp
+	"_Mappers.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper209.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper210.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+	"../../Core.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper212.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper213.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper214.cpp
+	"_Mappers.h"
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper216.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper222.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper225.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper226.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper227.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper228.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper229.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper230.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper231.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\mappers\mapper232.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper233.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper240.cpp
+	"_Mappers.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper242.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\mappers\mapper243.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper245.cpp
+	"_Mappers.h"
+	<iostream>
+	"../../Definations.h"
+
+1658377398 source:h:\programming\emushell\source\nes\mappers\mapper246.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mappers\mapper255.cpp
+	"_Mappers.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\mapperslocater.cpp
+	"Mappers/_Mappers.h"
+	<iostream>
+	"../Providers/VideoOut.h"
+
+1658387324 source:h:\programming\emushell\source\nes\nes.cpp
+	<string>
+	<fstream>
+	<exception>
+	<SDL2/SDL.h>
+	"Nes.h"
+	"IJoypadConnecter.h"
+	"IZapperConnecter.h"
+	"IVSUniSystemDIPConnecter.h"
+	"Rom/INES.h"
+	"../Common/Crc32.h"
+	"../Common/ConfigHandler.h"
+	"../Providers/SDLInput.h"
+	"../Providers/VideoOut.h"
+	"../Definations.h"
+	"../Core.h"
+
+1658377397 h:\programming\emushell\source\nes\rom\ines.h
+	<string>
+
+1658377397 source:h:\programming\emushell\source\nes\nesdb.cpp
+	<vector>
+	"Nes.h"
+	"../XMLParser/xmlParser.h"
+
+1658377104 h:\programming\emushell\source\xmlparser\xmlparser.h
+	<stdlib.h>
+	<tchar.h>
+	<wchar.h>
+
+1658379948 source:h:\programming\emushell\source\nes\palettes\ntscpalettegenerator.cpp
+	"NTSCPaletteGenerator.h"
+	"../../Common/ConfigHandler.h"
+	<math.h>
+
+1658377396 h:\programming\emushell\source\nes\palettes\ntscpalettegenerator.h
+	<stdint.h>
+
+1658379971 source:h:\programming\emushell\source\nes\palettes\palbpalettegenerator.cpp
+	"../../Common/ConfigHandler.h"
+	"PALBPaletteGenerator.h"
+	<math.h>
+	<cmath>
+
+1658377397 h:\programming\emushell\source\nes\palettes\palbpalettegenerator.h
+	<stdint.h>
+
+1658377396 source:h:\programming\emushell\source\nes\palettes\palettefile.cpp
+	<iostream>
+	<fstream>
+	"../../Common/ConfigHandler.h"
+
+1658377397 source:h:\programming\emushell\source\nes\ppu.cpp
+	<iostream>
+	"Nes.h"
+	"../Providers/VideoOut.h"
+	"../Definations.h"
+	"Palettes/NTSCPaletteGenerator.h"
+	"Palettes/PALBPaletteGenerator.h"
+	"Palettes/PaletteFile.h"
+
+1658377398 h:\programming\emushell\source\nes\palettes\palettefile.h
+	<stdint.h>
+	<string>
+
+1658377396 source:h:\programming\emushell\source\nes\rom\ines.cpp
+	"INES.h"
+	"../Board.h"
+	<iostream>
+	<fstream>
+
+1658377396 source:h:\programming\emushell\source\nes\soundchannels\apuinternalchannel.cpp
+	"../Nes.h"
+
+1658377398 source:h:\programming\emushell\source\nes\soundchannels\channeldmc.cpp
+	"../Nes.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\soundchannels\channelnoise.cpp
+	"../Nes.h"
+
+1658377396 source:h:\programming\emushell\source\nes\soundchannels\channelpulse.cpp
+	"../Nes.h"
+
+1658377397 source:h:\programming\emushell\source\nes\soundchannels\channeltriangle.cpp
+	"../Nes.h"
+
+1658377398 source:h:\programming\emushell\source\nes\soundchannels\mmc5channelpcm.cpp
+	"../Nes.h"
+	"../../Definations.h"
+
+1658377396 source:h:\programming\emushell\source\nes\soundchannels\mmc5channelpulse.cpp
+	"../Nes.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\soundchannels\sunsoft5bchannel.cpp
+	"../Nes.h"
+	"../../Definations.h"
+
+1658377395 source:h:\programming\emushell\source\nes\soundchannels\vrc6channelpulse.cpp
+	"../Nes.h"
+	"../../Definations.h"
+	<stdio.h>
+
+1658377397 source:h:\programming\emushell\source\nes\soundchannels\vrc6channelsawtooth.cpp
+	"../Nes.h"
+	"../../Definations.h"
+
+1658377397 source:h:\programming\emushell\source\nes\vsunisystemjoystickconnecter.cpp
+	"IVSUniSystemDIPConnecter.h"
+	"../Providers/SDLInput.h"
+	"../Common/ConfigHandler.h"
+	<iostream>
+
+1658386146 source:h:\programming\emushell\source\providers\audioout.cpp
+	<string>
+	<iostream>
+	"VideoOut.h"
+	<SDL2/SDL.h>
+
+1658377104 source:h:\programming\emushell\source\providers\blip_buffer\blip_buffer.cpp
+	"Blip_Buffer.h"
+	<assert.h>
+	<limits.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+
+1658377396 source:h:\programming\emushell\source\providers\sdlinput.cpp
+	"SDLInput.h"
+	<iostream>
+	"../Common/ConfigHandler.h"
+	<SDL2/SDL.h>
+
+1658377104 source:h:\programming\emushell\source\providers\timer\timer.cpp
+	"Timer.h"
+	<stdlib.h>
+
+1658377104 h:\programming\emushell\source\providers\timer\timer.h
+	<windows.h>
+	<sys/time.h>
+
+1658377395 source:h:\programming\emushell\source\resources.rc
+
+1658377104 source:h:\programming\emushell\source\xmlparser\xmlparser.cpp
+	"xmlParser.h"
+	<Windows.h>
+	<memory.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<widec.h>
+	<wctype.h>
+	<widec.h>
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\close_code.h
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910319 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1650910320 h:\programming\sdl2\sdl2-2.0.22\i686-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1658387464 source:h:\programming\emushell\source\providers\videoout.cpp
+	"../Common/ConfigHandler.h"
+	"VideoOut.h"
+	"SDLInput.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<cstdlib>
+	<math.h>
+	<chrono>
+	<thread>
+	"Timer/Timer.h"
+	"../Core.h"
+	"../Definations.h"
+
+1658377971 h:\programming\sdl2\sdl2_image-2.6.0\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1657198986 h:\programming\sdl2\sdl2_ttf-2.20.0\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1657287435 h:\programming\sdl2\sdl2_image-2.6.0\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1657198940 h:\programming\sdl2\sdl2_ttf-2.20.0\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+

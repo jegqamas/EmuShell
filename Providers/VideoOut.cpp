@@ -1,8 +1,8 @@
 // This file is part of EmuShell
 // A multi video game systems emulator.
 //
-// Copyright(C) 2015 Ala Ibrahim Hadid
-// E-mail: mailto:ahdsoftwares@hotmail.com
+// Copyright(C) 2015 - 2022 Alaa Ibrahim Hadid
+// E-mail: mailto:alaahadidfreeware@gmail.com
 //
 // This program is free software : you can redistribute it and / or modify
 // it under the terms of the GNU General Public License as published by
@@ -159,7 +159,7 @@ void LoadSettings()
     FrameLimitterEnabled = CONFIG::GetBoolValue("frame_limit", true);
     SHOW_FPS = CONFIG::GetBoolValue("show_fps", false);
     FULLSCREEN= CONFIG::GetBoolValue("fullscreen", false);
-    FrameSkipEnabled = CONFIG::GetBoolValue("frame_skip_enable" , false);
+    FrameSkipEnabled = CONFIG::GetBoolValue("frame_skip_enable", false);
     FrameSkipInterval = CONFIG::GetInt32Value("frame_skip_int", 1);
     custom_screen_width= CONFIG::GetInt32Value("screen_w", 800);
     custom_screen_height= CONFIG::GetInt32Value("screen_h", 600);
@@ -191,7 +191,7 @@ void SaveSettings()
     CONFIG::SetValue("show_fps", SHOW_FPS);
     CONFIG::SetValue("frame_limit", FrameLimitterEnabled);
     CONFIG::SetValue("fullscreen", FULLSCREEN);
-    CONFIG::SetValue("frame_skip_enable" , FrameSkipEnabled);
+    CONFIG::SetValue("frame_skip_enable", FrameSkipEnabled);
     CONFIG::SetValue("frame_skip_int", FrameSkipInterval);
     CONFIG::SetValue("snaps_folder",SnapshotFolder);
     CONFIG::SetValue("snap_format",SnapshotFormat);
@@ -409,9 +409,9 @@ void CheckEvents()
                     FrameSkipInterval=1;
 
                 if (FrameSkipEnabled)
-                    WriteNotification("Frame skip ON" , 120 , 0x00FF00);
+                    WriteNotification("Frame skip ON", 120, 0x00FF00);
                 else
-                    WriteNotification("Frame skip OFF" , 120 ,0x00FF00);
+                    WriteNotification("Frame skip OFF", 120,0x00FF00);
             }
             else if (event.key.keysym.sym==Key_TakeSnapshot)
             {
@@ -460,9 +460,9 @@ void CheckEvents()
                         FrameSkipInterval=1;
 
                     if (FrameSkipEnabled)
-                        WriteNotification("Frame skip ON" , 120 , 0x00FF00);
+                        WriteNotification("Frame skip ON", 120, 0x00FF00);
                     else
-                        WriteNotification("Frame skip OFF" , 120 ,0x00FF00);
+                        WriteNotification("Frame skip OFF", 120,0x00FF00);
                 }
                 else if (event.jbutton.button==JoyButton_TakeSnapshot)
                 {
@@ -625,9 +625,12 @@ void Run()
         //********* Show FPS
         if (SHOW_FPS)
         {
-            WriteFps(("FPS: " + Convert::to_string<double>(1.0/ ImmediateFrameTime)).c_str(), 0x00FF00);
+            if (ImmediateFrameTime>0)
+            {
+                WriteFps(("FPS: " + Convert::to_string<double>(1.0/ ImmediateFrameTime)).c_str(), 0x00FF00);
 
-            SDL_RenderCopy(renderer, fpsTexture, NULL, &fpsRect);
+                SDL_RenderCopy(renderer, fpsTexture, NULL, &fpsRect);
+            }
         }
         //***********************************************************
 
@@ -646,7 +649,14 @@ void Run()
         if (FrameLimitterEnabled && ImmediateFrameTime > 0)// ImmediateFrameTime==0 means the timer doesn't work
         {
             if (DeadTime > 0)
-                std::this_thread::sleep_for(std::chrono::milliseconds(floor(DeadTime * 1000)));
+            {
+
+                //std::this_thread::sleep_for(std::chrono::milliseconds(floor(DeadTime * 1000)));
+                SDL_Delay(floor(DeadTime * 1000));
+            }
+
+
+
             //while (ImmediateFrameTime < FramePeriod)
             //{
             //    ImmediateFrameTime = high_res_timer.getElapsedTimeInSec() - LastFrameTime;

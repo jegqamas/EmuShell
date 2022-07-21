@@ -31,16 +31,16 @@
 		<Compiler>
 			<Add option="-O3" />
 			<Add option="-Wall" />
-			<Add directory="C:/Libraries/SDL2/SDL2_image-2.0.1/i686-w64-mingw32/include" />
-			<Add directory="C:/Libraries/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/include" />
-			<Add directory="C:/Libraries/SDL2/SDL2-2.0.4/i686-w64-mingw32/include/SDL2" />
-			<Add directory="C:/Libraries/SDL2/SDL2-2.0.4/i686-w64-mingw32/include" />
+			<Add directory="../../SDL2/SDL2-2.0.22/i686-w64-mingw32/include" />
+			<Add directory="../../SDL2/SDL2-2.0.22/i686-w64-mingw32/include/SDL2" />
+			<Add directory="../../SDL2/SDL2_image-2.6.0/i686-w64-mingw32/include" />
+			<Add directory="../../SDL2/SDL2_ttf-2.20.0/i686-w64-mingw32/include" />
 		</Compiler>
 		<Linker>
 			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image" />
-			<Add directory="C:/Libraries/SDL2/SDL2-2.0.4/i686-w64-mingw32/lib" />
-			<Add directory="C:/Libraries/SDL2/SDL2_image-2.0.1/i686-w64-mingw32/lib" />
-			<Add directory="C:/Libraries/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/lib" />
+			<Add directory="../../SDL2/SDL2_image-2.6.0/i686-w64-mingw32/lib" />
+			<Add directory="../../SDL2/SDL2_ttf-2.20.0/i686-w64-mingw32/lib" />
+			<Add directory="../../SDL2/SDL2-2.0.22/i686-w64-mingw32/lib" />
 		</Linker>
 		<Unit filename="Common/ConfigHandler.cpp" />
 		<Unit filename="Common/ConfigHandler.h" />
@@ -240,9 +240,6 @@
 		<Unit filename="XMLParser/xmlParser.cpp" />
 		<Unit filename="XMLParser/xmlParser.h" />
 		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
